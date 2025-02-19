@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>9Axes Quiz</title>
+<title>9Kufijt Quiz</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -10,22 +10,21 @@
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>9Axes</h1>
+<h1>9Kufijt</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">Po ngarkohet...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 2)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 1)" style="background-color: #4caf50;">Agree</button> <br>
-<button class="button" onclick="next_question( 0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
-<button class="button" onclick="next_question(-1)" style="background-color: #f44336;">Disagree</button> <br>
-<button class="button" onclick="next_question(-2)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Previous</button>
-<button class="small_button_off" id="back_button_off">Previous</button><br>
-
+<button class="button" onclick="next_question( 2)" style="background-color: #1b5e20;">Shumë Pajtohem</button> <br>
+<button class="button" onclick="next_question( 1)" style="background-color: #4caf50;">Pajtohem</button> <br>
+<button class="button" onclick="next_question( 0)" style="background-color: #bbbbbb;">Neutral/Pa mendim</button> <br>
+<button class="button" onclick="next_question(-1)" style="background-color: #f44336;">Nuk Pajtohem</button> <br>
+<button class="button" onclick="next_question(-2)" style="background-color: #b71c1c;">Shumë Nuk Pajtohem</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Mbrapa</button>
+<button class="small_button_off" id="back_button_off">Mbrapa</button><br>
 
 <script>
-    var scores = [0, 0, 0, 0, 0, 0, 0, 0, 0];//fed, dem, glo, mil, fre, equ, sec, pro, mul - User's scores
-    var qn = 0; // Question number
+    var scores = [0, 0, 0, 0, 0, 0, 0, 0, 0]; //fed, dem, glo, mil, fre, equ, sec, pro, mul - Pikat e përdoruesit
+    var qn = 0; // Numri i pyetjes
     var answers = [];
     var quests = [];
     init_all_questions(quests);
@@ -34,10 +33,10 @@
     function init_all_questions(qs) {
         //1,2,3,-2,-4
         var t = [1,2,3,5,7];
-        for(var i = 0; i < 9; i++) //Number of Axes
+        for(var i = 0; i < 9; i++) //Numri i Akseve
         {
             var c = Math.random()<0.5;
-            for(var j = 0; j < 5; j++) //Number of questions per axis
+            for(var j = 0; j < 5; j++) //Numri i pyetjeve për çdo aks
             {
                 var m = [i,c?t[j]:(8-t[j]),Math.floor(Math.random()*questions[i][c?t[j]:(8-t[j])].length)];
                 qs.push(m);
@@ -51,7 +50,7 @@
         var rate = quests[qn][1];
         var num = quests[qn][2];
         document.getElementById("question-text").innerHTML = questions[ax][rate][num];
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (quests.length);
+        document.getElementById("question-number").innerHTML = "Pyetja " + (qn + 1) + " nga " + (quests.length);
         if (qn == 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
@@ -65,14 +64,14 @@
     function shuffle(array) {
       var currentIndex = array.length, temporaryValue, randomIndex;
 
-      // While there remain elements to shuffle...
+      // Ndërsa ka ende elemente për t'u përzier...
       while (0 !== currentIndex) {
 
-        // Pick a remaining element...
+        // Zgjedh një element të mbetur...
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
 
-        // And swap it with the current element.
+        // Dhe e këmben me elementin aktual.
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
