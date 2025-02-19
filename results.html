@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>9Axes Results</title>
+<title>Rezultatet 9Kufijt</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -10,10 +10,10 @@
 </script>
 
 <body>
-<h1>9Axes</h1>
+<h1>9Kufijt</h1>
 <hr>
 
-<h1>Results</h1>
+<h1>Rezultatet</h1>
 
 <h2><span class="weight-300" id="a-label"></span></h2>
 <div class="axis">
@@ -81,14 +81,14 @@
 
 <br><br>
 
-<h2 class="ideology">Closest Match: <span class="weight-300" id="ideology-label"></span></h1>
-<p class="ideology">Your 8values ideology (see https://8values.github.io for more information)</p>
-<p class="ideology">Please note this does only factor the Democratic-Authoritarian, Globalist-Isolationist, Equality-Markets, and Progressive-Traditional axes.</p>
+<h2 class="ideology">Përputhja më e Afërt: <span class="weight-300" id="ideology-label"></span></h1>
+<p class="ideology">Ideologjia juaj 8values (shihni https://8values.github.io për më shumë informacion)</p>
+<p class="ideology">Ju lutem vini re se kjo përfshin vetëm akset Demokratik-Autoritar, Globalist-Isolacionist, Barazi-Tregje, dhe Progresiv-Tradicional.</p>
 
 <br><br>
 
 <canvas id="banner" width=800 height=1200 style="font-family:Montserrat"></canvas>
-<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Kthehu</button> <br>
 <script>
     function getQueryVariable(variable)
     {
@@ -99,8 +99,7 @@
                    if(pair[0] == variable) {return pair[1]}
            }
            return(NaN);
-    }
-
+<script>
     function setBarValue(name, value) {
         innerel = document.getElementById(name)
         outerel = document.getElementById("bar-" + name)
@@ -111,19 +110,19 @@
         }
     }
 
-    leftArray = ["Federal","Democratic","Globalist","Militarist","Security","Equality","Secular","Progressive","Assimilationist"]
-    rightArray = ["Unitary","Authoritarian","Isolationist","Pacifist","Freedom","Markets","Religious","Traditional","Multiculturalist"]
+    leftArray = ["Federale","Demokratike","Globaliste","Militariste","Siguri","Barazi","Sekular","Progresive","Asimilim"]
+    rightArray = ["Unitariste","Autoritare","Izolacioniste","Paqesore","Liri","Tregje","Fetare","Tradicionale","Multikulturale"]
 
-    function setLabel(val,axis) {
-        if (val >= 90) { return "Fanatic " + leftArray[axis] } else
-        if (val >= 80) { return "Extreme " + leftArray[axis] } else
+    function setLabel(val, axis) {
+        if (val >= 90) { return "Fanatik " + leftArray[axis] } else
+        if (val >= 80) { return "Ekstrem " + leftArray[axis] } else
         if (val >= 70) { return leftArray[axis] } else
         if (val >= 60) { return "Moderate " + leftArray[axis] } else
         if (val > 40) { return "Neutral" } else
         if (val > 30) { return "Moderate " + rightArray[axis] } else
         if (val > 20) { return rightArray[axis] } else
-        if (val > 10) { return "Extreme " + rightArray[axis] } else
-        	{return "Fanatic " + rightArray[axis]}
+        if (val > 10) { return "Ekstrem " + rightArray[axis] } else
+        	{return "Fanatik " + rightArray[axis]}
     }
 
     a  = getQueryVariable("a")
@@ -198,7 +197,8 @@
             ctx.drawImage(img, x, y, w, h)
         }
     }
-
+</script>
+<script>
     window.onload = function() {
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
@@ -330,5 +330,5 @@
         ctx.fillText(document.getElementById("h-label").innerHTML, 400, 965)
         ctx.fillText(document.getElementById("i-label").innerHTML, 400, 1085)
     }
-    </script>
+</script>
 </body>
