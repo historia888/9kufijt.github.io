@@ -1,365 +1,230 @@
 questions = 
-    [[//Federal-Unitary`
+    [[//Federal-Unitary
         [//4
-            "There is no need for a national government",
-            "Subdivisions of nations should have their own militaries",
-            "State laws should have precedence over national laws"
+            "Nuk ka nevojë për një qeveri kombëtare",
+            "Nënndarjet e shteteve duhet të kenë ushtritë e tyre",
+            "Ligjet e shtetit duhet të kenë prioritet mbi ligjet kombëtare"
         ],
         [//3
-            "State and local laws should have precedence over national laws",
-            "The national government can't understand what the people need.",
-            "People should hold more loyalty to their local state than their country."
+            "Ligjet e shtetit dhe të nivelit lokal duhet të kenë prioritet mbi ligjet kombëtare",
+            "Qeveria kombëtare nuk mund ta kuptojë atë që njerëzit kanë nevojë.",
+            "Njerëzit duhet të kenë më shumë besnikëri ndaj shtetit të tyre lokal sesa ndaj vendit të tyre."
         ],
         [//2
-            "Local governments should have more power than they currently do",
-            "Laws should vary from area to area and culture to culture within a country.",
-            "It's a good idea to test a policy in one state rather than implementing it nationwide right away"
-            
+            "Qeveritë lokale duhet të kenë më shumë fuqi sesa kanë tani",
+            "Ligjet duhet të ndryshojnë nga një zonë në zonë dhe nga kultura në kulturë brenda një shteti.",
+            "Është një ide e mirë të provosh një politikë në një shtet para se ta implementosh atë në nivel kombëtar"
         ],
         [//1
-            "Local governments can understand their citizens better than the national government could",
-            "Local governments address issues that the national government would never touch without them",
-            "Local governments give each region good representation of their views"
+            "Qeveritë lokale mund ta kuptojnë më mirë popullin e tyre sesa mund ta bëjë qeveria kombëtare",
+            "Qeveritë lokale trajtojnë çështje që qeveria kombëtare nuk do t'i trajtonte pa to",
+            "Qeveritë lokale ofrojnë përfaqësim të mirë për çdo rajon në lidhje me pikëpamjet e tij"
         ],
         [//-1
-            "A country cannot function without a national government",
-            "The national government protects minorities better than some local governments do.",
-            "There are many issues that it does not make sense to address at a local level"
+            "Një shtet nuk mund të funksionojë pa një qeveri kombëtare",
+            "Qeveria kombëtare mbron minoritetet më mirë sesa disa qeveri lokale.",
+            "Ka shumë çështje që nuk ka kuptim të adresohen në nivel lokal"
         ],
         [//-2
-            "The national government needs more power",
-            "Subdivisions should not be able to exempt from national laws",
-            "People should think of themselves as citizens of their nation rather than their state"
+            "Qeveria kombëtare ka nevojë për më shumë fuqi",
+            "Nënndarjet nuk duhet të kenë mundësi të përjashtohen nga ligjet kombëtare",
+            "Njerëzit duhet të mendojnë për veten si qytetarë të shtetit të tyre dhe jo të shtetit të tyre lokal"
         ],
         [//-3
-            "A group of states without a strong national government is merely an alliance, not a nation",
-            "A national government must be strong to adequately protect all its citizens",
-            "States cannot function without a strong national government"
+            "Një grup shtetesh pa një qeveri kombëtare të fortë është thjesht një aleancë, jo një komb",
+            "Një qeveri kombëtare duhet të jetë e fortë për të mbrojtur siç duhet të gjithë qytetarët e saj",
+            "Shtetet nuk mund të funksionojnë pa një qeveri kombëtare të fortë"
         ],
         [//-4
-            "There is no need for local or state governments",
-            "Laws should be completely consistent within all regions of a nation",
-            "Strong states weaken a nation"
-        ]],[//Democratic-Authoritarian`
+            "Nuk ka nevojë për qeveri lokale ose shtetërore",
+            "Ligjet duhet të jenë plotësisht të qëndrueshme në të gjitha rajonet e një kombi",
+            "Shtetet e forta e dobësojnë një komb"
+        ]],
+    [//Democratic-Authoritarian
         [//4
-            "Direct democracy is the best form of government",
-            "People should vote issue by issue themselves",
-            "Representatives rarely represent the nation well"
+            "Demokracia e drejtpërdrejtë është forma më e mirë e qeverisjes",
+            "Njerëzit duhet të votojnë për çështje individuale vetë",
+            "Përfaqësuesit rrallë përfaqësojnë mirë kombet"
         ],
         [//3
-            "It is important that the government follows the majority opinion, even if it is wrong.",
-            "The more people asked, the better chance there is of reaching the best decision.",
-            "Nobody but me can adequately represent my views"
+            "Është e rëndësishme që qeveria të ndjekë opinionin e shumicës, edhe nëse është gabim.",
+            "Sa më shumë njerëz pyeten, aq më e madhe është mundësia për të arritur vendimin më të mirë.",
+            "Askush përveç meje nuk mund të përfaqësojë në mënyrë adekuate pikëpamjet e mia"
         ],
         [//2
-            "Elections are an effective way of showing government approval",
-            "Democracy is the worst form of government, except for all the others we've tried.",
-            "Each person should have one vote, each equal to every other"
+            "Zgjedhjet janë një mënyrë efektive për të treguar miratimin e qeverisë",
+            "Demokracia është forma më e keqe e qeverisjes, përveç të gjitha të tjerave që kemi provuar.",
+            "Çdo person duhet të ketë një votë, të barabartë me çdo tjetër"
         ],
         [//1
-            "Democracy is more than a decision-making process.",
-            "People should have the power to choose their leaders",
-            "The government must be by the people for the people"
+            "Demokracia është më shumë se një proces vendimmarrës.",
+            "Njerëzit duhet të kenë fuqinë për të zgjedhur udhëheqësit e tyre",
+            "Qeveria duhet të jetë nga populli dhe për popullin"
         ],
         [//-1
-            "The stronger the leadership, the better.",
-            "Popular opinion is not always right",
-            "Leaders must be strong or a nation will suffer"
+            "Sa më e fortë të jetë udhëheqja, aq më mirë.",
+            "Opinionin popullor nuk është gjithmonë e drejtë",
+            "Udhehëqësit duhet të jenë të fortë, ose një komb do të vuajë"
         ],
         [//-2
-             "A hierarchical state is best.",
-            "Society could not function without leaders and followers",
-             "Democracy makes it too easy for a majority to further itself at the expense of minorities"
+            "Një shtet hierarkik është më i miri.",
+            "Shoqëria nuk mund të funksionojë pa udhëheqës dhe pasues",
+            "Demokracia e bën shumë të lehtë për një shumicë të avancojë në dëm të minoriteteve"
         ],
         [//-3
-            "The general populace makes poor decisions.",
-             "It is important that we further my group's goals above all others.",
-            "Public opinion swings too much with emotional events to be useful for policy making"
+            "Popullata e përgjithshme bën vendime të këqija.",
+            "Është e rëndësishme që ne të avancojmë qëllimet e grupit tim mbi të gjitha të tjerat.",
+            "Opinionet publike ndryshojnë shumë me ngjarjet emocionale për të qenë të dobishme për krijimin e politikave"
         ],
         [//-4
-            "Elections are a waste of resources",
-            "Catering to popular opinion is detrimental to a nation",
-            "A nation must obey its leadership without question"
-        ]],[//Globalist-Isolationist
+            "Zgjedhjet janë një humbje burimesh",
+            "Përqendrimi në opinionin popullor është dëmshëm për një komb",
+            "Një komb duhet t'i bindej udhëheqësisë së tij pa pyetje"
+        ]],
+    [//Globalist-Isolationist
         [//4
-            "A united world government would be beneficial to mankind.",
-            "We are first and foremost citizens of Earth",
-            "In order for humanity to survive, we must get past having separate nations"
+            "Një qeveri botërore e bashkuar do të ishte e dobishme për njerëzimin.",
+            "Ne jemi së pari dhe më së shumti qytetarë të Tokës",
+            "Për të mbijetuar, njerëzimi duhet të kalojë përtej ndarjes në shtete të ndryshme"
         ],
         [//3
-            "The United Nations needs more power",
-            "The United Nations should have a military to enforce its resolutions",
-            "Having independent nations with the risk of global conflict creates a large threat to humanity as a whole"
+            "Kombet e Bashkuara kanë nevojë për më shumë fuqi",
+            "Kombet e Bashkuara duhet të kenë një ushtri për të zbatuar rezolutat e saj",
+            "Kërcënimi global për njerëzimin si një e tërë krijohet nga shtetet të pavarura me rrezik konflikti global"
         ],
         [//2
-            "I support regional unions, such as the European Union.",
-            "Governments should be accountable to the international community.",
-            "Nations fighting among each other gets in the way of progress"
+            "Unë mbështes bashkimet rajonale, si Bashkimi Evropian.",
+            "Qeveritë duhet të jenë të përgjegjshme ndaj komunitetit ndërkombëtar.",
+            "Kombet që luftojnë mes tyre pengojnë përparimin"
         ],
         [//1
-            "International trade is generally beneficial.",
-            "Alliances are important for protecting a nation",
-            "Nations should cooperate whenever it benefits them both"
+            "Tregtia ndërkombëtare është përgjithësisht e dobishme.",
+            "Aleancat janë të rëndësishme për mbrojtjen e një kombi",
+            "Kombet duhet të bashkëpunojnë sa herë që kjo i përfiton të dyja"
         ],
+
+       questions = 
+    [[//National-Sovereignty
         [//-1
-            "It is important to maintain our national sovereignty.",
-            "My nation is closer to my views than most nations in the world",
-            "I am proud to be in my country"
+            "Është e rëndësishme të ruhet sovraniteti ynë kombëtar.",
+            "Kombi im është më afër pikëpamjeve të mia sesa shumica e kombeve në botë",
+            "Jam krenar që jam në vendin tim"
         ],
         [//-2
-            "International aid is a waste of money.",
-            "Alliances can pose a threat to a nation's sovereignty.",
-            "National cultures are important to protect"
+            "Ndihma ndërkombëtare është një shpenzim parash.",
+            "Aleancat mund të paraqesin një kërcënim për sovranitetin e një kombi.",
+            "Kulturat kombëtare janë të rëndësishme për t'u mbrojtur"
         ],
         [//-3
-            "My nation should stay out of international affairs",
-            "The United Nations should be abolished.",
-            "Nobody in other countries has our best interests in mind"
+            "Kombi im duhet të qëndrojë jashtë çështjeve ndërkombëtare",
+            "Kombet e Bashkuara duhet të shpërbëhen.",
+            "Askush nga vendet e tjera nuk ka interesat tona më të mira në mendje"
         ],
         [//-4
-            "Diplomacy only hurts nations",
-            "There should not be international law",
-            "Any deals other countries want must be bad for us"
-        ]],[//Militarist-Pacifist
+            "Diplomacia vetëm i dëmton kombet",
+            "Nuk duhet të ketë ligj ndërkombëtar",
+            "Çdo marrëveshje që kërkojnë vendet e tjera duhet të jetë e keqe për ne"
+        ]],
+    [//Militarist-Pacifist
         [//4
-            "War is needed to make an economy thrive",
-            "A constant state of war benefits a country",
-            "Only those who serve in the military should be allowed to have influence on who is in power"
+            "Lufta është e nevojshme për të bërë një ekonomi të lulëzojë",
+            "Një gjendje konstante lufte është e dobishme për një komb",
+            "Vetëm ata që shërbejnë në ushtri duhet të kenë ndikim mbi ata që janë në pushtet"
         ],
         [//3
-            "There should be compulsory military service",
-            "Countries that do not serve our interests should be toppled",
-            "Only those who served in the military should be able to gain power in government"
+            "Duhet të ketë shërbim ushtarak të detyrueshëm",
+            "Kombet që nuk shërbejnë interesave tona duhet të rrëzohen",
+            "Vetëm ata që shërbyen në ushtri duhet të kenë mundësi të fitojnë pushtet në qeveri"
         ],
         [//2
-            "Military action by our nation is often necessary to protect it.",
-            "Countries that violate human rights should be toppled",
-            "A military option should always be considered"
+            "Veprimi ushtarak nga kombi ynë shpesh është i nevojshëm për ta mbrojtur atë.",
+            "Kombet që shkelin të drejtat e njeriut duhet të rrëzohen",
+            "Një mundësi ushtarake duhet të merret parasysh gjithmonë"
         ],
         [//1
-            "A government must maintain a strong military to defend itself",
-            "A nation usually needs a military in order to survive",
-            "We should respect those who have served in our military"
+            "Një qeveri duhet të mbajë një ushtri të fortë për të mbrojtur veten",
+            "Një komb zakonisht ka nevojë për një ushtri për të mbijetuar",
+            "Duhet të respektojmë ata që kanë shërbyer në ushtrinë tonë"
         ],
         [//-1
-            "It is more important to retain peaceful relations than to further our strength.",
-            "Diplomatic options should always be tried before war is even considered",
-            "Peace is preferable to war whenever possible"
+            "Është më e rëndësishme të ruajmë marrëdhënie paqësore sesa të forcojmë fuqinë tonë.",
+            "Opsionet diplomatike duhet të provohen gjithmonë para se të merret në konsideratë lufta",
+            "Paqja është më e preferueshme se lufta kurdo që është e mundur"
         ],
         [//-2
-            "Even when protesting an authoritarian government, violence is not acceptable.",
-            "Lasting peace leads to prosperity",
-            "War usually leads to worse outcomes"
+            "Edhe kur protestohet ndaj një qeverie autoritare, dhuna nuk është e pranueshme.",
+            "Paqja e qëndrueshme çon në prosperitet",
+            "Lufta zakonisht çon në rezultate më të këqija"
         ],
         [//-3
-            "Military spending is a waste of money.",
-            "We have no right to militarily intervene in other nations",
-            "Countries fall apart with constant war"
+            "Shpenzimet ushtarake janë një shpenzim parash.",
+            "Nuk kemi të drejtë të ndërhyjmë ushtarakisht në kombet e tjera",
+            "Kombet shkatërrohen me luftë të vazhdueshme"
         ],
         [//-4
-            "War is never justified",
-            "In the modern era, militaries aren't really necessary",
-            "Nations should not maintain a military"
-        ]],[//Security-Freedom
+            "Lufta nuk është kurrë e justifikuar",
+            "Në epokën moderne, ushtritë nuk janë vërtet të nevojshme",
+            "Kombet nuk duhet të mbajnë një ushtri"
+        ]],
+    [//Security-Freedom
         [//4
-            "Those who disagree with the government should be removed from the country",
-            "The government should monitor all citizens to combat terrorism",
-            "People should not have protections that could hinder discovering their criminal activity"
+            "Ata që nuk bien dakord me qeverinë duhet të largohen nga vendi",
+            "Qeveria duhet të monitorojë të gjithë qytetarët për të luftuar terrorizmin",
+            "Njerëzit nuk duhet të kenë mbrojtje që mund të pengojnë zbulimin e veprimtarisë së tyre kriminale"
         ],
         [//3
-            "Police need more power and protection",
-            "It is very important to maintain law and order.",
-            "A country must be sure to take all measures to enforce its laws"
+            "Policia ka nevojë për më shumë fuqi dhe mbrojtje",
+            "Është shumë e rëndësishme të ruhet rendi dhe ligji.",
+            "Një komb duhet të jetë i sigurt që të marrë të gjitha masat për të zbatuar ligjet e tij"
         ],
         [//2
-            "If you have nothing to hide, then you shouldn't care about the government having access to your communications",
-            "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
-            "Government surveillance is necessary in the modern world."
+            "Nëse nuk keni asgjë për të fshehur, nuk duhet të shqetësoheni që qeveria ka akses në komunikimet tuaja",
+            "Sacrifikimi i disa lirisë civile është i nevojshëm për të na mbrojtur nga aktet e terrorizmit.",
+            "Mbikëqyrja qeveritare është e nevojshme në botën moderne."
         ],
         [//1
-            "The government should have access to the emails of suspected terrorists",
-            "Some freedom must be given up in order to keep people safe",
-            "Absolute freedom makes a society dangerous"
+            "Qeveria duhet të ketë akses në emailet e dyshuar për terrorizëm",
+            "Disa liri duhet të hiqen për të mbajtur njerëzit të sigurt",
+            "Liria absolute e bën një shoqëri të rrezikshme"
         ],
         [//-1
-            "Marijuana should be legalized",
-            "People should be given freedom whenever it causes little security risk",
-            "The government has no business looking into most people's personal lives"
+            "Marijuana duhet të jetë e legalizuar",
+            "Njerëzit duhet të kenë lirinë sa herë që kjo nuk paraqet rrezik për sigurinë",
+            "Qeveria nuk ka punë të shqyrtojë jetën personale të shumicës së njerëzve"
         ],
         [//-2
-            "Abortion should be legal in all cases",
-            "Police should be regulated more",
-            "No authority should be left unquestioned."
+            "Aborti duhet të jetë i ligjshëm në të gjitha rastet",
+            "Policia duhet të rregullohet më shumë",
+            "Asnjë autoritet nuk duhet të mbetet pa pyetje."
         ],
         [//-3
-            "Victimless crimes (such as drug use) should not be crimes at all.",
-            "Most drugs should be legalized",
-            "Whistleblowers should be strongly protected"
+            "Krimet pa viktima (si përdorimi i drogës) nuk duhet të jenë fare krime.",
+            "Shumicës së drogave duhet t'u lejohet përdorimi",
+            "Denoncuesit duhet të mbrohen fort"
         ],
         [//-4
-            "The very existence of the state is a threat to our liberty.",
-            "There should be no police force",
-            "People's freedom should have no limits"
-        ]],[//Equality-Markets`
+            "Ekzistenca e shtetit është një kërcënim për lirinë tonë.",
+            "Nuk duhet të ketë forcë policore",
+            "Liria e njerëzve nuk duhet të ketë asnjë kufizim"
+        ]],
+    [//Equality-Markets
         [//4
-            "Communism, if implemented correctly, would be a good form of economics",
-            "From each according to his ability, to each according to his need",
-            "Equality of outcome is important"
+            "Komunizmi, nëse zbatohet si duhet, do të ishte një formë e mirë e ekonomisë",
+            "Nga secili sipas aftësisë së tij, secilit sipas nevojës së tij",
+            "Barazia e rezultatëve është e rëndësishme"
         ],
         [//3
-            "Oppression by corporations is more of a concern than oppression by governments.",
-            "Taxes should be increased on the rich to provide for the poor.",
-            "Public utilities like roads and electricity should be publicly owned."
+            "Shfrytëzimi nga korporatat është më shqetësuese se shfrytëzimi nga qeveritë.",
+            "Tatimet duhet të rriten për të pasurit për të siguruar të varfrit.",
+            "Shërbimet publike si rrugët dhe energjia duhet të jenë pronë publike."
         ],
         [//2
-            "I support single-payer, universal healthcare.",
-            "The wealthy have far more than they need",
-            "Basic things needed to live, such as healthcare, are rights"
+            "Mbështes shëndetësinë universale me një pagues të vetëm.",
+            "Të pasurit kanë shumë më tepër se sa kanë nevojë",
+            "Gjërat themelore për të jetuar, si shëndetësia, janë të drejta"
         ],
         [//1
-            "It is necessary for the government to intervene in the economy to protect consumers.",
-            "People should have equal opportunity to succeed",
-            "People born to wealthy families have unfair success even when they aren't skilled and don't work hard"
+            "Është e nevojshme që qeveria të ndërhyjë në ekonomi për të mbrojtur konsumatorët.",
+            "Njerëzit duhet të kenë mundësi të barabarta për të pasur sukses",
+            "Njerëzit e lindur në familje të pasura kanë sukses të padrejtë, edhe kur nuk janë të aftë dhe nuk punojnë shumë"
         ],
-        [//-1
-            "People should have the right to leave their wealth to their descendents",
-            "Excessive government intervention is a threat to the economy.",
-            "Economies without any capitalism will collapse"
-        ],
-        [//-2
-            "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
-            "Capitalism is better than any existing alternative",
-            "Government owned industry is usually a bad idea"
-        ],
-        [//-3
-            "The freer the market, the freer the people",
-            "People should have to work for anything they get",
-            "The poor choose to be poor"
-        ],
-        [//-4
-            "The government should not regulate the economy at all",
-            "The government should not break up monopolies",
-            "Those who do not work should die"
-        ]],[//Secular-Religious
-        [//4
-            "Religion should be banned",
-            "Faith is complete nonsense",
-            "Religion must decline for society to progress"
-        ],
-        [//3
-            "Religious clothing should be banned from public",
-            "There is no higher power",
-            "The government should not fund any religious organizations in any way"
-        ],
-        [//2
-            "I support gay marriage",
-            "Every religion must be looked upon equally by the government",
-            "Religion should be removed from everything in our government"
-        ],
-        [//1
-            "Religion does not belong in government",
-            "Laws should not be based on religion",
-            "There must be a separation between church and state"
-        ],
-        [//-1
-            "I believe there is something after death",
-            "Religion is beneficial for society",
-            "People must be allowed to follow a religion"
-        ],
-        [//-2
-            "I believe in a higher power",
-            "Religious organizations often provide better assistance to the poor than the government does",
-            "Children should be educated in religious values."
-        ],
-        [//-3
-            "Religion usually provides the truth",
-            "My religious values should be spread as much as possible.",
-            "Sex outside marriage is immoral."
-        ],
-        [//-4
-            "Theocracy is a good system of government",
-            "The government should support and only recognize one religion",
-            "Most bad things happening in the world are caused by us turning away from religion"
-        ]],[//Progressive-Traditional
-        [//4
-            "If AI could rule more effectively than humans, then AI should rule",
-            "Genetic modification is a force for good, even on humans.",
-            "Tradition just hinders the progress of technology"
-        ],
-        [//3
-            "Automation overall is extremely good for society",
-            "Traditions are of no value on their own.",
-            "When people have already suffered for technology to be developed, we should use that technology"
-        ],
-        [//2
-            "We should put effort into getting a person on Mars in the near future",
-            "Testing products on animals is ethical",
-            "Technological progress is usually good"
-            
-        ],
-        [//1
-            "Human Caused climate change is currently one of the greatest threats to our way of life.",
-            "Environmental regulations are essential.",
-            "A better world will come from automation, science, and technology."
-        ],
-        [//-1
-            "To chase progress at all costs is dangerous.",
-            "Technology is not always beneficial",
-            "Traditions are important"
-        ],
-        [//-2
-            "Technology is negatively affecting modern society",
-            "Genetic modification should be used rarely, if ever",
-            "Maintaining family values is essential."
-        ],
-        [//-3
-            "Society was better many years ago than it is now.",
-            "It is important that we maintain the traditions of our past.",
-            "The elders in society know the best path for it"
-        ],
-        [//-4
-            "Traditional medicines are often more effective than modern medicines",
-            "The Internet should be banned",
-            "We must go back to a basic way of life without modern conveniences."
-        ]],[//Assimilationist-Multiculturalist
-        [//4
-            "Foreigners should never enter the country",
-            "We should not allow any refugees",
-            "Only our national language(s) should be spoken in our country"
-        ],
-        [//3
-            "Only extremely talented immigrants, if that, should be permitted to enter the country",
-            "If we accept migrants at all, it is important that they assimilate into our culture.",
-            "Immigrants can never really adapt to our way of life"
-        ],
-        [//2
-            "In general, immigrants are bad for the country",
-            "A nation's culture is important to protect",
-            "Illegal immigrants do not provide a benefit to the hosting country"
-        ],
-        [//1
-            "Illegal immigrants should be deported in most or all cases",
-            "Immigrants should be expected to learn the language of the country",
-            "Border protection is important"
-        ],
-        [//-1
-            "We should be taking in more refugees",
-            "Immigrants are a net positive",
-            "I enjoy some foreign cultures"
-        ],
-        [//-2
-            "No cultures are superior to others.",
-            "We should be more accepting to other cultures",
-            "All societies are a blend of cultures"
-        ],
-        [//-3
-            "Everybody should speak at least two languages",
-            "All humans share a common identity",
-            "Our culture would be better with other cultures mixed in more"
-        ],
-        [//-4
-            "Governments should be as concerned about foreign citizens as they are about those within their borders.",
-            "Anybody who wants to enter the country should be able to",
-            "The benefits of open borders would outweigh the costs"
-        ]
-    ]];
